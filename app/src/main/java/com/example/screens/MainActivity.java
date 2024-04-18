@@ -26,8 +26,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
     Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-    intent.putExtra("name","Dainel");
-    intent.putExtra("number",1);
+    intent.putExtra("Who","Simon");
+    intent.putExtra("Age",24);
+    intent.putExtra("Need sleep?", "Yes");
     startActivity(intent);
 
 

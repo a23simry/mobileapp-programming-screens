@@ -15,6 +15,7 @@ public class SecondActivity extends AppCompatActivity {
         if (extras != null){
             String name = extras.getString("name");
             int number = extras.getInt("number");
+            String sleep = extras.getString("Need sleep?");
 
         }
 
